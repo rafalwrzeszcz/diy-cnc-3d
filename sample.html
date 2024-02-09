@@ -85,13 +85,57 @@ h3:after {
     content: ")";
 }
 
+.treasure {
+    background-color: #ebe393;
+}
+
+.curse {
+    background-color: #c7addc;
+}
+
+.victory {
+    background-color: #a8e7a1;
+}
+
+.reaction {
+    background-color: #8bc6e9;
+}
+
+.action {
+    background-color: #e7e6e6;
+}
+
+.duration {
+    background-color: #f6a577;
+}
+
+.duration.reaction {
+    background: repeating-linear-gradient(
+        -45deg,
+        #f6a577,
+        #f6a577 30px,
+        #8bc6e9 30px,
+        #8bc6e9 60px
+    );
+}
+
+.action.victory {
+    background: repeating-linear-gradient(
+        -45deg,
+        #e7e6e6,
+        #e7e6e6 30px,
+        #a8e7a1 30px,
+        #a8e7a1 60px
+    );
+}
+
 </style>
 </head>
 <body>
 
 <!-- Dominion -->
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Miedziaki</h1>
 <div>
     <h2>Miedziaki</h2>
@@ -99,7 +143,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Srebrniki</h1>
 <div>
     <h2>Srebrniki</h2>
@@ -107,7 +151,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Złoto</h1>
 <div>
     <h2>Złoto</h2>
@@ -115,7 +159,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider curse">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Klątwa</h1>
 <div>
     <h2>Klątwa</h2>
@@ -123,7 +167,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Posiadłość</h1>
 <div>
     <h2>Posiadłość</h2>
@@ -131,7 +175,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Powiat</h1>
 <div>
     <h2>Powiat</h2>
@@ -139,7 +183,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Prowincja</h1>
 <div>
     <h2>Prowincja</h2>
@@ -147,7 +191,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider reaction">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Fosa</h1>
 <div>
     <h2>Fosa</h2>
@@ -155,7 +199,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Kaplica</h1>
 <div>
     <h2>Kaplica</h2>
@@ -163,7 +207,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Piwnica</h1>
 <div>
     <h2>Piwnica</h2>
@@ -171,7 +215,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Kupiec</h1>
 <div>
     <h2>Kupiec</h2>
@@ -179,7 +223,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Warsztat</h1>
 <div>
     <h2>Warsztat</h2>
@@ -187,7 +231,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Wasal</h1>
 <div>
     <h2>Wasal</h2>
@@ -195,7 +239,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Wioska</h1>
 <div>
     <h2>Wioska</h2>
@@ -203,7 +247,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Zwiastun</h1>
 <div>
     <h2>Zwiastun</h2>
@@ -211,7 +255,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Kłusownik</h1>
 <div>
     <h2>Kłusownik</h2>
@@ -219,7 +263,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Kuźnia</h1>
 <div>
     <h2>Kuźnia</h2>
@@ -227,7 +271,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Lichwiarz</h1>
 <div>
     <h2>Lichwiarz</h2>
@@ -235,7 +279,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Milicja</h1>
 <div>
     <h2>Milicja</h2>
@@ -243,7 +287,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Ogrody</h1>
 <div>
     <h2>Ogrody</h2>
@@ -251,7 +295,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Przebudowa</h1>
 <div>
     <h2>Przebudowa</h2>
@@ -259,7 +303,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Sala tronowa</h1>
 <div>
     <h2>Sala tronowa</h2>
@@ -267,7 +311,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Urzędnik</h1>
 <div>
     <h2>Urzędnik</h2>
@@ -275,7 +319,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Bandyta</h1>
 <div>
     <h2>Bandyta</h2>
@@ -283,7 +327,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Biblioteka</h1>
 <div>
     <h2>Biblioteka</h2>
@@ -291,7 +335,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Festyn</h1>
 <div>
     <h2>Festyn</h2>
@@ -299,7 +343,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Kopalnia</h1>
 <div>
     <h2>Kopalnia</h2>
@@ -307,7 +351,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Laboratorium</h1>
 <div>
     <h2>Laboratorium</h2>
@@ -315,7 +359,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Sala obrad</h1>
 <div>
     <h2>Sala obrad</h2>
@@ -323,7 +367,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Targowisko</h1>
 <div>
     <h2>Targowisko</h2>
@@ -331,7 +375,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Wartownik</h1>
 <div>
     <h2>Wartownik</h2>
@@ -339,7 +383,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Wiedźma</h1>
 <div>
     <h2>Wiedźma</h2>
@@ -347,7 +391,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/dominion_icon.png" alt="Dominion"/> Rękodzielnik</h1>
 <div>
     <h2>Rękodzielnik</h2>
@@ -357,225 +401,225 @@ h3:after {
 
 <!-- Dominion: Przystań -->
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Latarnia morska</h1>
 <div>
     <h2>Latarnia morska</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Przystań</h1>
 <div>
     <h2>Przystań</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Wioska tubylców</h1>
 <div>
     <h2>Wioska tubylców</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Astrolabium</h1>
 <div>
     <h2>Astrolabium</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Bocianie gniazdo</h1>
 <div>
     <h2>Bocianie gniazdo</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Magazyn</h1>
 <div>
     <h2>Magazyn</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Małpa</h1>
 <div>
     <h2>Małpa</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Mapa morska</h1>
 <div>
     <h2>Mapa morska</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Przemytnicy</h1>
 <div>
     <h2>Przemytnicy</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Wioska rybacka</h1>
 <div>
     <h2>Wioska rybacka</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Baseny pływowe</h1>
 <div>
     <h2>Baseny pływowe</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Blokada</h1>
 <div>
     <h2>Blokada</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Karawana</h1>
 <div>
     <h2>Karawana</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Kieszonkowiec</h1>
 <div>
     <h2>Kieszonkowiec</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action victory">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Wyspa</h1>
 <div>
     <h2>Wyspa</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Wyławiacz</h1>
 <div>
     <h2>Wyławiacz</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Mapa skarbu</h1>
 <div>
     <h2>Mapa skarbu</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Żeglarz</h1>
 <div>
     <h2>Żeglarz</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Bazar</h1>
 <div>
     <h2>Bazar</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Korsarz</h1>
 <div>
     <h2>Korsarz</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Morska czarownica</h1>
 <div>
     <h2>Morska czarownica</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Nabrzeże</h1>
 <div>
     <h2>Nabrzeże</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Okręt kupiecki</h1>
 <div>
     <h2>Okręt kupiecki</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration reaction">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Pirat</h1>
 <div>
     <h2>Pirat</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Przyczółek</h1>
 <div>
     <h2>Przyczółek</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Skarbiec</h1>
 <div>
     <h2>Skarbiec</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
-<section class="divider">
+<section class="divider duration">
 <h1><img src="icons/seaside_icon.png" alt="Dominion: Przystań"/> Strateg</h1>
 <div>
     <h2>Strateg</h2>
-    <h3>Dominion</h3>
+    <h3>Przystań</h3>
 </div>
 </section>
 
 <!-- Dominion: Złoty Wiek -->
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Platyna</h1>
 <div>
     <h2>Platyna</h2>
@@ -583,7 +627,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Kolonia</h1>
 <div>
     <h2>Kolonia</h2>
@@ -591,7 +635,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Kowadło</h1>
 <div>
     <h2>Kowadło</h2>
@@ -599,7 +643,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider reaction">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Strażnica</h1>
 <div>
     <h2>Strażnica</h2>
@@ -607,7 +651,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Biskup</h1>
 <div>
     <h2>Biskup</h2>
@@ -615,7 +659,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Inwestycja</h1>
 <div>
     <h2>Inwestycja</h2>
@@ -623,7 +667,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Kamieniołom</h1>
 <div>
     <h2>Kamieniołom</h2>
@@ -631,7 +675,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider reaction">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Kancelista</h1>
 <div>
     <h2>Kancelista</h2>
@@ -639,7 +683,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Monument</h1>
 <div>
     <h2>Monument</h2>
@@ -647,7 +691,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Tiara</h1>
 <div>
     <h2>Tiara</h2>
@@ -655,7 +699,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Wioska robotnicza</h1>
 <div>
     <h2>Wioska robotnicza</h2>
@@ -663,7 +707,15 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
+<h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Kolekcja</h1>
+<div>
+    <h2>Kolekcja</h2>
+    <h3>Złoty wiek</h3>
+</div>
+</section>
+
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Kryształowa kula</h1>
 <div>
     <h2>Kryształowa kula</h2>
@@ -671,7 +723,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Magnat</h1>
 <div>
     <h2>Magnat</h2>
@@ -679,7 +731,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Miasto</h1>
 <div>
     <h2>Miasto</h2>
@@ -687,7 +739,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Mincerz</h1>
 <div>
     <h2>Mincerz</h2>
@@ -695,7 +747,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Motłoch</h1>
 <div>
     <h2>Motłoch</h2>
@@ -703,7 +755,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Składnica</h1>
 <div>
     <h2>Składnica</h2>
@@ -711,7 +763,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Szachrajka</h1>
 <div>
     <h2>Szachrajka</h2>
@@ -719,7 +771,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Zasoby wojenne</h1>
 <div>
     <h2>Zasoby wojenne</h2>
@@ -727,7 +779,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Krocie</h1>
 <div>
     <h2>Krocie</h2>
@@ -735,7 +787,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Wielki targ</h1>
 <div>
     <h2>Wielki targ</h2>
@@ -743,7 +795,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Bank</h1>
 <div>
     <h2>Bank</h2>
@@ -751,7 +803,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Modernizacja</h1>
 <div>
     <h2>Modernizacja</h2>
@@ -759,7 +811,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Płatnerz</h1>
 <div>
     <h2>Płatnerz</h2>
@@ -767,7 +819,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Rada królewska</h1>
 <div>
     <h2>Rada królewska</h2>
@@ -775,7 +827,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/prosperity_icon.png" alt="Dominion: Złoty Wiek"/> Domokrążca</h1>
 <div>
     <h2>Domokrążca</h2>
@@ -785,7 +837,7 @@ h3:after {
 
 <!-- Dominion Base Cards -->
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Miedziaki</h1>
 <div>
     <h2>Miedziaki</h2>
@@ -793,7 +845,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Srebrniki</h1>
 <div>
     <h2>Srebrniki</h2>
@@ -801,7 +853,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Złoto</h1>
 <div>
     <h2>Złoto</h2>
@@ -809,7 +861,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider treasure">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Platyna</h1>
 <div>
     <h2>Platyna</h2>
@@ -817,7 +869,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider curse">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Klątwa</h1>
 <div>
     <h2>Klątwa</h2>
@@ -825,7 +877,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Posiadłość</h1>
 <div>
     <h2>Posiadłość</h2>
@@ -833,7 +885,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Powiat</h1>
 <div>
     <h2>Powiat</h2>
@@ -841,7 +893,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Prowincja</h1>
 <div>
     <h2>Prowincja</h2>
@@ -849,7 +901,7 @@ h3:after {
 </div>
 </section>
 
-<section class="divider">
+<section class="divider victory">
 <h1><img src="icons/base_cards_icon.png" alt="Karty podstawowe"/> Kolonia</h1>
 <div>
     <h2>Kolonia</h2>
@@ -861,7 +913,7 @@ h3:after {
 
 <!-- Promo cards -->
 
-<section class="divider">
+<section class="divider action">
 <h1><img src="icons/promo_icon.png" alt="Promocyjne"/> Poseł</h1>
 <div>
     <h2>Poseł</h2>
@@ -870,6 +922,10 @@ h3:after {
 </section>
 
 <!-- Generic separator -->
+
+<section class="divider">
+<h1>Separatory</h1>
+</section>
 
 <section class="divider"/>
 
