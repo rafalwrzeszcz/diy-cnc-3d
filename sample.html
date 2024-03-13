@@ -4,18 +4,27 @@
 <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" rel="stylesheet" type="text/css"/>
 <style>
 
+:root {
+    --card-width: 94mm;
+    --card-height: 67mm;
+    --card-margin: 5mm;
+    --print-margin: 3mm;
+
+    --page-width: calc(var(--card-width) + 2 * var(--print-margin));
+    --page-height: calc(var(--card-height) + 2 * var(--print-margin));
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
-    font-size: 15px;
     font-family: 'Libre Baskerville', 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman, 'Goudy Old Style', Garamond, 'Hoefler Text', 'Bitstream Charter', Georgia, serif;
     color: #000000;
 }
 
 @page {
-    height: 67mm;
-    width: 94mm;
+    height: var(--page-height);
+    width: var(--page-width);
     margin: 0;
 }
 
@@ -26,10 +35,9 @@ body {
 
 section {
     break-inside: avoid;
-    height: 67mm;
-    width: 94mm;
-    padding: 2mm;
-    border-radius: 3mm;
+    height: var(--page-height);
+    width: var(--page-width);
+    padding: var(--card-margin);
     vertical-align: top;
     display: flex;
     flex-flow: column;
@@ -48,7 +56,7 @@ section h1 {
     font-size: 4mm;
     line-height: 1.2em;
     text-align: left;
-    padding: 1mm 1mm 0;
+    padding: 2mm 4mm 0;
     flex: 0 1 auto;
 }
 
