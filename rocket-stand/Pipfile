@@ -4,8 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "==2.1.0"
-numpy-stl = "==3.1.2"
+pymadcad = "==0.17.0"
 
 [dev-packages]
 
