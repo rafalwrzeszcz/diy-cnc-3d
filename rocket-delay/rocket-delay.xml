@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/rafal.wrzeszcz/workspaces/private/diy-cnc-3d/rocket-delay/rocket-delay/rocket-delay.kicad_sch</source>
+    <date>sob, 11 paź 2025, 04:51:40</date>
+    <tool>Eeschema 6.0.11+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>rocket-delay.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C0">
+      <value>0,5F/12V (2x 1F/6v)</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fa6fd14-2a24-4c8c-a699-db2480096608</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4,7μF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0b748a8-2648-4c88-83e8-39692047d272</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>2,2μF</value>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81b2baf5-9be8-4a8e-9498-a57c7b4107a4</tstamps>
+    </comp>
+    <comp ref="Delay1">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <fields>
+        <field name="Delay">~10,3s</field>
+      </fields>
+      <libsource lib="Timer" part="NE555P" description="Precision Timers, 555 compatible,  PDIP-8"/>
+      <property name="Delay" value="~10,3s"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eff8f830-c5a8-4a4f-8b40-46cbbd1621b5</tstamps>
+    </comp>
+    <comp ref="Delay2">
+      <value>NE555P</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <fields>
+        <field name="Delay">~12,3s</field>
+      </fields>
+      <libsource lib="Timer" part="NE555P" description="Precision Timers, 555 compatible,  PDIP-8"/>
+      <property name="Delay" value="~12,3s"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>895ae958-2805-4850-9aaa-60f04298462a</tstamps>
+    </comp>
+    <comp ref="E2">
+      <value>Engine 2</value>
+      <libsource lib="Device" part="Lamp" description="Lamp"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b94e4e14-71e9-460b-8e70-6283981ee9a7</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>2kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b9f5bfd-89cd-4df6-9c27-fa491836ea1a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5,1kΩ</value>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e272421-c774-4ff8-b407-754690e1ac29</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>Engine 1</value>
+      <libsource lib="Device" part="Lamp" description="Lamp"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rocket-delay.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>165eb76f-5723-4b16-bbdc-d61c6d654a99</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Lamp">
+      <description>Lamp</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">LA</field>
+        <field name="Value">Lamp</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Timer" part="NE555P">
+      <description>Precision Timers, 555 compatible,  PDIP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555P</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Timer">
+      <uri>/usr/share/kicad/symbols//Timer.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+9V">
+      <node ref="C0" pin="2" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Delay1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="Delay1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="Delay2" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="Delay2" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="C0" pin="1" pintype="passive"/>
+      <node ref="Delay1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="Delay2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="E2" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Delay2" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="Delay2" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(Delay1-Pad3)">
+      <node ref="Delay1" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="X1" pin="1" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(E2-Pad1)">
+      <node ref="Delay2" pin="3" pinfunction="Q" pintype="output"/>
+      <node ref="E2" pin="1" pinfunction="-" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad2)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Delay1" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="Delay1" pin="6" pinfunction="THR" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="unconnected-(Delay1-Pad5)">
+      <node ref="Delay1" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="8" name="unconnected-(Delay1-Pad7)">
+      <node ref="Delay1" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="9" name="unconnected-(Delay2-Pad5)">
+      <node ref="Delay2" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="10" name="unconnected-(Delay2-Pad7)">
+      <node ref="Delay2" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+  </nets>
+</export>
